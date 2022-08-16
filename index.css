@@ -1,171 +1,170 @@
 * {
-    padding: 0;
-    margin: 0;
-  }
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+  margin-top: 100px;
+  width: 100%;
+  font-style: italic;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+  margin-top: 100px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: auto;
+}
+
+.header {
+  order: 1;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.disable {
+  pointer-events: none;
+  background-color: #d3d3d3;
+}
+
+.list {
+  order: 2;
+  border: 2px solid black;
+  width: 500px;
+}
+
+.form {
+  order: 4;
+}
+
+.form-title {
+  font-size: 32px;
+}
+
+.btn {
+  width: 60px;
+  margin-left: 319px;
+  padding: 5px;
+  box-shadow: 5px 5px 5px 2px;
+  border: 2px solid black;
+}
+
+.title,
+.author {
+  width: 250px;
+  margin: 10px auto;
+  padding: 2px;
+  border: 2px solid black;
+}
+
+.bookbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.bookbox:nth-child(odd) {
+  background-color: #d3d3d3;
+}
+
+.remove-button {
+  margin: 10px;
+  padding: 5px;
+  box-shadow: 5px 5px 7px 1px;
+  border: 2px solid black;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.footer {
+  order: 5;
+  border: 2px solid black;
+  margin-top: 30px;
+  padding: 3px 0;
+  margin-bottom: 10px;
+}
+
+.copyright {
+  text-align: start;
+  margin-left: 10px;
+}
+
+/* --------------------------Navbar starts here----------- */
+
+.time {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 12px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid black;
+  align-items: center;
+  padding: 3px 5px;
+}
+
+.navbar-links {
+  display: flex;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
   
-  body {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    text-align: center;
-    margin-top: 100px;
-    width: 100%;
-    font-style: italic;
-  }
+.link:hover {
+  cursor: pointer;
+}
+
+.pole {
+  margin: 0 2px;
+}
   
-  .container {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    text-align: center;
-    margin-top: 100px;
-  }
+/* ------------------------Contact Info starts here------------------ */
   
-  form {
-    display: flex;
-    flex-direction: column;
-    width: 500px;
-    margin: auto;
-  }
+.contact-info {
+  margin: 20px auto;
+  width: 500px;
+}
   
-  .header {
-    order: 1;
-    margin-bottom: 10px;
-    margin-top: 20px;
-  }
+.contact-header {
+  margin-bottom: 30px;
+  font-size: 32px;
+}
   
-  .hidden {
-    display: none;
-  }
-  
-  .disable {
-    pointer-events: none;
-    background-color: #d3d3d3;
-  }
-  
-  .list {
-    order: 2;
-    border: 2px solid black;
-    width: 500px;
-  }
-  
-  .form {
-    order: 4;
-  }
-  
-  .form-title {
-    font-size: 32px;
-  }
-  
-  .btn {
-    width: 60px;
-    margin-left: 319px;
-    padding: 5px;
-    box-shadow: 5px 5px 5px 2px;
-    border: 2px solid black;
-  }
-  
-  .title,
-  .author {
-    width: 250px;
-    margin: 10px auto;
-    padding: 2px;
-    border: 2px solid black;
-  }
-  
-  .bookbox {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 10px;
-  }
-  
-  .bookbox:nth-child(odd) {
-    background-color: #d3d3d3;
-  }
-  
-  .remove-button {
-    margin: 10px;
-    padding: 5px;
-    box-shadow: 5px 5px 7px 1px;
-    border: 2px solid black;
-    font-weight: 700;
-    font-size: 15px;
-  }
-  
-  .footer {
-    order: 5;
-    border: 2px solid black;
-    margin-top: 30px;
-    padding: 3px 0;
-    margin-bottom: 10px;
-  }
-  
-  .copyright {
-    text-align: start;
-    margin-left: 10px;
-  }
-  
-  /* --------------------------Navbar starts here----------- */
-  
-  .time {
-    display: flex;
-    justify-content: flex-end;
-    font-size: 12px;
-  }
-  
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    border: 2px solid black;
-    align-items: center;
-    padding: 3px 5px;
-  }
-  
-  .navbar-links {
-    display: flex;
-  }
-  
-  .link {
-    text-decoration: none;
-    color: black;
-  }
-  
-  .link:hover {
-    cursor: pointer;
-  }
-  
-  .pole {
-    margin: 0 2px;
-  }
-  
-  /* ------------------------Contact Info starts here------------------ */
-  
-  .contact-info {
-    margin: 20px auto;
-    width: 500px;
-  }
-  
-  .contact-header {
-    margin-bottom: 30px;
-    font-size: 32px;
-  }
-  
-  .contact-text1,
-  .contact-text2 {
-    text-align: start;
-    margin-left: 20px;
-  }
-  
-  .contact-text2 {
-    margin-bottom: 15px;
-  }
-  
-  .contact-ul {
-    text-align: start;
-  }
-  
-  .contact-list {
-    margin-left: 60px;
-  }
-  
+.contact-text1,
+.contact-text2 {
+  text-align: start;
+  margin-left: 20px;
+}
+
+.contact-text2 {
+  margin-bottom: 15px;
+}
+
+.contact-ul {
+  text-align: start;
+}
+
+.contact-list {
+  margin-left: 60px;
+}

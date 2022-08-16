@@ -78,5 +78,5 @@ export default class Navbars {
     } else if (this.navAdd.classList.contains('disable')) {
       this.navAdd.classList.toggle('disable');
     }
-  }     
+  }
 }

@@ -130,7 +130,7 @@ form {
   text-decoration: none;
   color: black;
 }
-  
+
 .link:hover {
   cursor: pointer;
 }
@@ -138,19 +138,19 @@ form {
 .pole {
   margin: 0 2px;
 }
-  
+
 /* ------------------------Contact Info starts here------------------ */
   
 .contact-info {
   margin: 20px auto;
   width: 500px;
 }
-  
+
 .contact-header {
   margin-bottom: 30px;
   font-size: 32px;
 }
-  
+
 .contact-text1,
 .contact-text2 {
   text-align: start;

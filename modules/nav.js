@@ -46,7 +46,7 @@ export default class Navbars {
       this.disableContact();
       if (this.listSelector.classList.contains('hidden')) {
         this.addSection.classList.toggle('hidden');
-        } else if (this.addSection.classList.contains('hidden')) {
+      } else if (this.addSection.classList.contains('hidden')) {
         this.listSelector.classList.toggle('hidden');
         this.listHeader.classList.toggle('hidden');
       }
@@ -70,7 +70,7 @@ export default class Navbars {
       this.navContact.classList.toggle('disable');
     }
   }
-    
+
   disableContact() {
     this.navContact.classList.toggle('disable');
     if (this.navList.classList.contains('disable')) {
@@ -78,5 +78,5 @@ export default class Navbars {
     } else if (this.navAdd.classList.contains('disable')) {
       this.navAdd.classList.toggle('disable');
     }
-  }      
+  }     
 }

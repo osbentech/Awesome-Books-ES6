@@ -2,22 +2,22 @@
 
 export default class ArrayTemplate {
   constructor() {
-  this.titleSelector = document.querySelector('.title');
-  this.authorSelector = document.querySelector('.author');
-  this.addSelector = document.querySelector('.btn');
-  this.listSelector = document.querySelector('.list');
-  this.navList = document.getElementById('link1');
-  this.navAdd = document.getElementById('link2');
-  this.navContact = document.getElementById('link3');
-  this.listHeader = document.querySelector('.header');
-  this.contactSection = document.querySelector('.contact-info');
-  this.addSection = document.querySelector('.form');
-  this.titleArr = [];
-  this.authorArr = [];
-  this.buttonArr = [];
-  this.bookElement = [];
-  this.books = [];
-  this.bookInfo = {};
+    this.titleSelector = document.querySelector('.title');
+    this.authorSelector = document.querySelector('.author');
+    this.addSelector = document.querySelector('.btn');
+    this.listSelector = document.querySelector('.list');
+    this.navList = document.getElementById('link1');
+    this.navAdd = document.getElementById('link2');
+    this.navContact = document.getElementById('link3');
+    this.listHeader = document.querySelector('.header');
+    this.contactSection = document.querySelector('.contact-info');
+    this.addSection = document.querySelector('.form');
+    this.titleArr = [];
+    this.authorArr = [];
+    this.buttonArr = [];
+    this.bookElement = [];
+    this.books = [];
+    this.bookInfo = {};
   this.by = [];
   }
   

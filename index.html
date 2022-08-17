@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Books||ES6</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar-container">
+      <div class="navbar">
+        <h3 class="navbar-header">Awesome Books</h3>
+        <div class="navbar-links">
+          <div class="link" id="link1">List</div>
+          <p class="pole">|</p>
+          <div class="link disable" id="link2">Add new</div>
+          <p class="pole">|</p>
+          <div class="link" id="link3">Contact</div>
+        </div>
+      </div>
+      <div class="time">
+        <time datetime="1914-12-20T08:00">Time Here</time>
+      </div>
+    </nav>
+    <h1 class="header hidden">Awesome Books📚</h1>
+
+    <table class="list hidden" id="list">
+
+    </table>
+    <form class="form" action="null" method="post">
+      <h3 class="form-title">Add a new book📚</h3>
+      <input class='title' type="text" placeholder="Title">
+      <input class="author" type="text" placeholder="Author">
+      <input type="button" class="btn" value="Add">
+    </form>
+    <div class="contact-info hidden">
+      <h3 class="contact-header">Contact Information</h3>
+      <p class="contact-text1">Do you have any questions or just want to say "Hello"?</p>
+      <p class="contact-text2">You can reach out to me!</p>
+      <ul class="contact-ul">
+        <li class="contact-list">My e-mail: mail@mail.com</li>
+        <li class="contact-list">My phone number: 0043586534422</li>
+        <li class="contact-list">My address: Streetname 22, 84503 City, Country</li>
+      </ul>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p class="copyright">&copy;Copyright     ...</p>
+  </footer>
+
+  <script src="https://moment.github.io/luxon/global/luxon.min.js"></script>
+  <script type="module" src="index.js"></script>
+</body>
+</html>

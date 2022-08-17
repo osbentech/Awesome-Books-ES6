@@ -4,21 +4,17 @@
 }
 
 body {
+  background-image: url(pic/bg1.jpg);
   display: flex;
   flex-direction: column;
-  margin: auto;
   text-align: center;
-  margin-top: 100px;
-  width: 100%;
   font-style: italic;
 }
 
 .container {
   display: flex;
   flex-direction: column;
-  margin: auto;
   text-align: center;
-  margin-top: 100px;
 }
 
 form {
@@ -31,7 +27,7 @@ form {
 .header {
   order: 1;
   margin-bottom: 10px;
-  margin-top: 20px;
+  margin-top: 90px;
 }
 
 .hidden {
@@ -46,15 +42,19 @@ form {
 .list {
   order: 2;
   border: 2px solid black;
-  width: 500px;
+  margin: 70px 30px;
 }
 
 .form {
   order: 4;
+  margin-top: 90px;
 }
 
 .form-title {
-  font-size: 32px;
+  font-size: 42px;
+  color: yellow;
+  text-shadow: 2px 2px 2px aliceblue;
+  margin-bottom: 20px;
 }
 
 .btn {
@@ -96,7 +96,7 @@ form {
 .footer {
   order: 5;
   border: 2px solid black;
-  margin-top: 30px;
+  margin-top: 100%;
   padding: 3px 0;
   margin-bottom: 10px;
 }
@@ -112,6 +112,8 @@ form {
   display: flex;
   justify-content: flex-end;
   font-size: 12px;
+  margin-right: 5px;
+  color: white;
 }
 
 .navbar {
@@ -120,10 +122,16 @@ form {
   border: 2px solid black;
   align-items: center;
   padding: 3px 5px;
+  height: 60px;
+  background: white;
+  color: red;
 }
 
 .navbar-links {
   display: flex;
+  margin-right: 4px;
+  font-size: 17px;
+  color: red;
 }
 
 .link {
